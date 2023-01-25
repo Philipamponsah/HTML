@@ -1,0 +1,22 @@
+/* img {
+    width: 100px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .username {
+    font-weight: bold;
+  } */
+
+  p {
+    color: blue;
+  }
+
+  h1 {
+    color: cyan;
+  }
+
+  h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
