@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My first web page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <img src="images/freeman.jpg" alt="An image of Freeman" />
+    <p class="username">@freeman</p>
+    <p>I love</p>
+    <p>to teach you HTML!</p>
+    <h1>Heading 1</h1>
+    <h2>HTML</h2>
+    <p>HTML tutorial</p>
+    <h2>CSS</h2>
+    <p>CSS tutorial</p>
+    <h3>HTML5 Audio Element</h1>
+      <h4>HTML5 Video Element</h4>
+      <Video width="320" height="240" controls>
+        <source src="Media/video_sample.mp4" type="video/mp4">
+        <source src="Media/Video_sample.ogv" type="video/ogg">
+        <source src="Media/Video_sample.webm" type="video/webm">
+        </Video>
+    <audio controls>
+      <source src="Media/audio_sample.ogg" type="audio/ogg" />
+      <source src="Media/audio_sample.mp3 " type="audio/mpeg" />
+    </audio>
+    
+    <hr />
+
+    <form>
+      Email: <input type="email" name="email" /><br />
+      <input type="submit" value="Sign up>"
+    </form>
+
+    <p>
+      Hard Disk Usage:
+      <meter min="0" value="239" max="296">
+        239 GB used out of 296 GB total
+      </meter>
+    </p>
+    
+    <form oninput="pets.value=parseInt(dogs.value)+parseInt(cats.value)">
+      no. of dogs
+      <input type="number" id="dogs" value="2"><br>
+      no. of cats
+      <input type="number" id="cats" value="2"><br>
+      Total no. of pets: 4;
+      <output name="pets" for="dogs cats"></output>
+    </form>
+
+    <html>
+      <body>
+        <svg width="180" height="120">
+          <defs>
+          <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity: 1.0" />
+            <stop offset="100%" style="stop-color:rgb(0,0,225);stop opacity: 0.75" />
+            </linearGradient>
+            </defs>
+            <rect x="10" y="10" width="160" height="100" style="fill:url(#gradient)">
+            </svg>
+      </body>
+    </html>
+
+    
+    <ol>
+      <li>home sweet home</li>
+      <li>wakye joint</li>
+      <li>papaye</li>
+      <li>kfc</li>
+    </ol>
+
+    <ul>
+      <li>home sweet home</li>
+      <li>wakye joint</li>
+      <li>papaye</li>
+      <li>kfc</li>
+    </ul>
+
+    <a href="www.w3schools.com"> Search here</a>
+  </body>
+</html>
